@@ -1,0 +1,9 @@
+# Local-only media and sensitive working data
+film/private_assets/
+film/local/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.DS_Store
