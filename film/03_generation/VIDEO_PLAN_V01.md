@@ -27,3 +27,6 @@
 5. 승인 MP4는 film/03_generation/video/approved/에 VIDEO_<숏>_V01.mp4 규칙으로 관리. 대용량 파일 저장 제한 확인. 미승인 파일 업로드 불필요.
 
 S04A 첨부 QC 통과 권장, 저장소 파일 존재 확인(첨부와 blob 동일성 미검증). 남은 6개 프롬프트 준비. [일괄 가이드](video/VIDEO_REMAINING_PROMPTS_V01.md). 사용자 설정 Fast/비공개 켜기/HD/batch 1 확인. Low Motion/Raw는 프롬프트로 지정. 실제 음성 미수신, can_ship=false.
+
+## V2.23 엔딩 변경
+사용자 요청으로 S12A 및 S12B를 ARC-06-06/07 실제 사진으로 편집. 기존 S12A AI 영상은 QC 통과 예비 자산으로 보존하고 신규 생성 제외. 본편 AI 직접 영상 대상 9개. 이전 표의 S12A 항목은 이 변경 기록으로 대체. [엔딩 V02](../04_editing/ENDING_ARCHIVE_V02.md).
