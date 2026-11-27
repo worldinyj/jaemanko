@@ -1,4 +1,4 @@
-# 진행 상태 — 2026-11-27 / V2.20
+# 진행 상태 — 2026-11-27 / V2.21
 | 작업 | 상태 |
 |---|---|
 | 대표 이미지/스타일 및 인물 마스터 | 사용자 승인 완료 |
@@ -10,9 +10,9 @@
 | 사료 12슬롯 편집 | 1080p 정지 프레임 12장 + 대체 1장 로컬 초안 제작 완료, 가족 검토 및 공개권리 확인 대기 |
 | 한국어 내레이션 | V01 원고·12구간 큐시트·TTS용 텍스트 작성 완료; 가족 승인 및 실제 음성 길이 검증 대기 |
 | 한국어 음성 | 사용자 별도 제작; 실측 길이 미수신 |
-| AI 영상화 | S01A 승인, S02A 조건부 채택, MP4 2/10 업로드·blob 일치; S03A 수동 생성 대기 |
+| AI 영상화 | S01A·S03A 승인, S02A 조건부 채택, MP4 3/10 업로드·blob 일치; S04A 수동 생성 대기 |
 | 음악·최종 편집·배포 | 미실행 |
 | can_ship | false |
 
-추가 AI 이미지 생성 없음. 사용자는 음성을 별도 제작. 영상화 S03A 한 건만 진행 가능, 나머지 7건 보류. S02A 책장·입 움직임은 최종 편집 보완. 음성 수신 후 최종 타이밍 검증. 사료 ZIP은 가족 검토용으로 별도 전달하며 공개 Git에는 미게시. 기존 승인 PNG 및 research/ 변경 없음.
-[본편 숏 계획](01_preproduction/SHOT_PLAN_V03.md) · [통합 QC](05_qc/IMAGE_QC_V01.md) · [사료 편집](04_editing/ARCHIVE_EDIT_V01.md) · [내레이션 V01](04_editing/NARRATION_KO_V01.md) · [영상화 계획](03_generation/VIDEO_PLAN_V01.md) · [첫 영상 가이드](03_generation/video/VIDEO_S01A_V01.md) · [S02A 영상 가이드](03_generation/video/VIDEO_S02A_V01.md) · [S03A 영상 가이드](03_generation/video/VIDEO_S03A_V01.md)
+추가 AI 이미지 생성 없음. 사용자는 음성을 별도 제작. 영상화 S04A 한 건만 진행 가능, 나머지 6건 보류. S02A 책장·입 움직임은 최종 편집 보완. 음성 수신 후 최종 타이밍 검증. 사료 ZIP은 가족 검토용으로 별도 전달하며 공개 Git에는 미게시. 기존 승인 PNG 및 research/ 변경 없음.
+[본편 숏 계획](01_preproduction/SHOT_PLAN_V03.md) · [통합 QC](05_qc/IMAGE_QC_V01.md) · [사료 편집](04_editing/ARCHIVE_EDIT_V01.md) · [내레이션 V01](04_editing/NARRATION_KO_V01.md) · [영상화 계획](03_generation/VIDEO_PLAN_V01.md) · [첫 영상 가이드](03_generation/video/VIDEO_S01A_V01.md) · [S02A 영상 가이드](03_generation/video/VIDEO_S02A_V01.md) · [S03A 영상 가이드](03_generation/video/VIDEO_S03A_V01.md) · [S04A 영상 가이드](03_generation/video/VIDEO_S04A_V01.md)

@@ -16,4 +16,7 @@ A single continuous five-second cinematic shot of the existing quiet empty room.
 - 창살·닫힌 문·벽·바닥·광선 형태와 방향 안정, 인물/새 물체/과장된 후광·깜빡임·급격한 밝기 변화 없음.
 - 기존 청회색 그림자와 따뜻한 자연광 유지. 실제 감옥이라고 표시하지 않음.
 - MP4 수신 후 디코딩/해상도/길이/FPS/표본 프레임 검수. 승인 후 approved/VIDEO_S03A_V01.mp4 등록.
-- S03B는 별도 AI 영상 생성 없이 정지 이미지 기반 연속 편집 유지. S04A 이후 대기. 현재 미생성.
+- S03B는 별도 AI 영상 생성 없이 정지 이미지 기반 연속 편집 유지. S04A 다음 작업.
+
+## 승인 기록
+2026-11-27: APPROVED_LOCKED / REPO_BLOB_MATCH. 사용자 업로드 및 다음 단계 요청. 4,116,379 bytes, Git blob e6589b88814131960d4be4e59bd759bf17748743, 1264×704, 24fps, 125 frames, 5.208333s, H.264, 무음. 이전 표본 QC 통과. 시작 이미지 픽셀 동일성 미검증.

@@ -12,3 +12,9 @@
 - 커밋 12ebc6966bb313af70344ee7aecda659cd8207b0, 3,364,807 bytes, Git blob ae33642285271c41ccd2a22c1f9e7db88d0027bb. 이번 로컬 첨부 git hash-object와 일치.
 - ffprobe 재확인: H.264, 1280×720, 24fps, 125 frames, 5.208333s, 음성 스트림 없음. 이전 전체 디코딩 정상 및 표본 QC: 인물·화풍 양호, 초반 책장 움직임과 후반 발화처럼 보이는 입 움직임.
 - APPROVED_CONDITIONAL_LOCKED / REPO_BLOB_MATCH. 최종 편집에서 약 1.5–2.5초 독서 안정 구간을 우선 검토하고 정지 이미지 팬/줌 등으로 5초 구성. 정확한 인/아웃은 편집 검수 후 확정. 원본 수정 및 재생성 없음. 시작 PNG 픽셀 동일성 미검증.
+
+## VIDEO_S03A_V01
+- 사용자 업로드 및 다음 작업 요청에 따라 제작용 승인·잠금. [MP4](VIDEO_S03A_V01.mp4)
+- 커밋 5ed4a0e7033f322a5bafab6455137c40011719c1, 4,116,379 bytes, Git blob e6589b88814131960d4be4e59bd759bf17748743. 이번 로컬 첨부 git hash-object와 일치.
+- ffprobe 재확인: H.264, 1264×704, 24fps, 125 frames, 5.208333s, 음성 스트림 없음. 이전 전체 디코딩 정상 및 0.5초 간격 표본 QC 양호. 창살·닫힌 문·빛 안정, 먼지 움직임은 뚜렷하지 않으나 수용.
+- APPROVED_LOCKED / REPO_BLOB_MATCH. 최종 5초 편집 및 S03B 연속 편집은 별도. 원본 수정·재생성 없음. 시작 PNG 픽셀 동일성 미검증.
