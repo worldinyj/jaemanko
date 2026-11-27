@@ -1,5 +1,5 @@
 # 영상화 계획 V01 — 120초 기념영상
-2026-11-27 / V2.21 / SEQUENTIAL_PRODUCTION
+2026-11-27 / V2.22 / MANUAL_BATCH_READY
 
 사용자는 음성을 별도로 제작하기로 결정했다. 음성 생성/원고 변경/실측 타이밍은 이 작업에서 수행하지 않는다. 기존 24슬롯 120초는 임시 편집 기준으로 유지. 승인 이미지 12장(참조 인물 2, 장면 10) 중 장면 10장만 영상화 대상으로 한다. 실제 사료 12슬롯은 편집기 팬/줌, S03B/S09B 2슬롯은 각각 승인 이미지 기반 연속 편집으로 구성한다. 신규 정지 이미지 생성 없음.
 
@@ -11,19 +11,19 @@
 | S01A | 0–5 | S01A_V01.png | 느린 전진, 잔물결과 풀의 미세한 움직임 | APPROVED_LOCKED | 건물과 배의 형태 보존 |
 | S02A | 10–15 | S02A_V01.png | 미세한 호흡과 시선 | APPROVED_CONDITIONAL_LOCKED | 책장·입 움직임 최종 편집 보완 |
 | S03A | 20–25 | TEST-01_V01.png | 고정된 실내와 미세한 먼지 | APPROVED_LOCKED | 문/창살 형태 유지; S03B 별도 편집 |
-| S04A | 30–35 | S04A_V01.png | 느린 전진, 풀의 바람 | READY_FOR_MANUAL_RUN | 길과 산의 구도 유지 |
-| S04B | 35–40 | S04B_V01.png | 느린 걸음, 후방 추적 | HOLD_PREVIOUS_QC | 다리/발/가방 안정성 |
-| S05B | 45–50 | S05B_V01.png | 강단 방향 느린 전진 | HOLD_PREVIOUS_QC | 회중/설교자 얼굴과 손 보존 |
-| S06A | 50–55 | S06A_V01.png | 경청과 미세한 호흡 | HOLD_PREVIOUS_QC | 손/책/동료 변형 금지 |
-| S08B | 75–80 | S08B_V01.png | 자연스러운 시선과 호흡 | HOLD_PREVIOUS_QC | 손/표정 안정, 서명형 흔적 최종 편집 검토 |
-| S09A | 80–85 | TEST-02_V01.png | 안정적인 정면 이동 | HOLD_PREVIOUS_QC | 바퀴 하단 미가시; 회전/복잡한 페달 금지; S09B 별도 편집 |
-| S12A | 110–115 | TEST-03_V02.png | 풍경 속 느린 전진 | HOLD_PREVIOUS_QC | 광원/식생 변형 금지 |
+| S04A | 30–35 | S04A_V01.png | 느린 전진, 풀의 바람 | QC_PASS_REPO_PRESENT_UNVERIFIED | 길과 산의 구도 유지 |
+| S04B | 35–40 | S04B_V01.png | 느린 걸음, 후방 추적 | READY_FOR_MANUAL_RUN | 다리/발/가방 안정성 |
+| S05B | 45–50 | S05B_V01.png | 강단 방향 느린 전진 | READY_FOR_MANUAL_RUN | 회중/설교자 얼굴과 손 보존 |
+| S06A | 50–55 | S06A_V01.png | 경청과 미세한 호흡 | READY_FOR_MANUAL_RUN | 손/책/동료 변형 금지 |
+| S08B | 75–80 | S08B_V01.png | 자연스러운 시선과 호흡 | READY_FOR_MANUAL_RUN | 손/표정 안정, 서명형 흔적 최종 편집 검토 |
+| S09A | 80–85 | TEST-02_V01.png | 안정적인 정면 이동 | READY_FOR_MANUAL_RUN | 바퀴 하단 미가시; 회전/복잡한 페달 금지; S09B 별도 편집 |
+| S12A | 110–115 | TEST-03_V02.png | 풍경 속 느린 전진 | READY_FOR_MANUAL_RUN | 광원/식생 변형 금지 |
 
 ## 승인 절차
-1. S01A 단일 후보만 생성, Raw Video MP4 저장 및 검수. 다른 9숏은 승인까지 보류.
+1. S01A 파일럿 승인 완료. 남은 6개 프롬프트 일괄 제공, 각 1개 수동 생성 및 모아서 검수 가능.
 2. 시작 프레임 일관성, 구조/색/조형 안정성, 부드러운 모션, 컷/깜빡임/모핑 없음, 파일 재생·메타데이터 검증. 사용자 승인 후 잠금.
 3. 실패 시 원인별 프롬프트 조정 1회 제안 또는 편집기 팬/줌 대체. 자동 재시도 없음.
 4. 실제 역사자료는 생성 모델에 넣지 않는다. 음성 수신 후 최종 타이밍 조정. 역사적 사실/출처/가족 공개 권한은 기존 기준 유지.
 5. 승인 MP4는 film/03_generation/video/approved/에 VIDEO_<숏>_V01.mp4 규칙으로 관리. 대용량 파일 저장 제한 확인. 미승인 파일 업로드 불필요.
 
-현재 제작용 채택 영상 3/10 (S01A·S03A 확정, S02A 조건부; 세 로컬/Git blob 일치), 다음 한 건 S04A. 사용자 설정 Fast/비공개 켜기/HD/batch 1 확인. Low Motion/Raw는 프롬프트로 지정. 실제 음성 미수신, can_ship=false.
+S04A 첨부 QC 통과 권장, 저장소 파일 존재 확인(첨부와 blob 동일성 미검증). 남은 6개 프롬프트 준비. [일괄 가이드](video/VIDEO_REMAINING_PROMPTS_V01.md). 사용자 설정 Fast/비공개 켜기/HD/batch 1 확인. Low Motion/Raw는 프롬프트로 지정. 실제 음성 미수신, can_ship=false.
