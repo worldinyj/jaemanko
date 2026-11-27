@@ -15,3 +15,6 @@ A single continuous five-second shot. The camera slowly glides forward along the
 - 원래 색상과 현대적 3D 화풍 유지.
 - 재생 가능한 MP4 및 실제 해상도/FPS/길이 확인은 수신 후. 최종 5초 편집 규격은 실제 음성 수신 후 조정.
 - 결과를 Raw Video MP4로 다운로드, 영상 검수 후 승인 경로에 저장. 예정 파일명 VIDEO_S01A_V01.mp4. 현재 생성하지 않음.
+
+## 승인 기록
+2026-11-27: 사용자 업로드 및 다음 작업 요청. APPROVED_LOCKED / REPO_BLOB_MATCH. ffprobe 1264×704, 24fps, 125 frames, 5.208333s, H.264, 무음, 13,864,015 bytes. 로컬과 Git blob SHA 3f3a047f84022c108250ba9284eefbbe8855e7a5 일치. 기존 표본 QC 양호. 최종 편집 전 원본 보존.
