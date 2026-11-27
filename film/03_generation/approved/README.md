@@ -40,4 +40,4 @@
 ## S02A_V01
 - 2026-11-27 사용자 첨부 및 최종 채택. 1930년대 성경교육의 상징적 재현. CHAR-02와 현대적 3D 화풍 유지. 실제 결과는 정면에 가까운 구도, 열린 성경과 책상, 손을 책 곁에 둔 자세. 꽃 장식은 남아 있으며 역사적 복장 근거는 아님. 시선은 책보다 정면에 가까우므로 영상화 시 무리한 눈/손 동작 없이 차분한 독서 분위기 또는 팬/줌 활용.
 - 첨부 PNG 1456×816, 2,092,020 bytes, SHA-256 e464a40edd73705c6ba4ff9286888105112b5db3e6d155f3f37a957f8a608afc, 예상 Git blob SHA 1df512a55fd2794a2295821bc923a0cbb636ffa0.
-- APPROVED_LOCKED / PNG_UPLOAD_PENDING. 예정 경로 `film/03_generation/approved/S02A_V01.png`. 파일은 조회 시점에 저장소에 없으며 사용자 수동 업로드 후 확인. 추가 수정 금지. 영상화 미실행.
+- APPROVED_LOCKED / REPO_PRESENT_BYTE_MISMATCH. [S02A_V01.png](S02A_V01.png), 저장소 1,826,996 bytes, Git blob SHA 90615d8b488c373465f5d1216e8fd5b9bd471248. 사용자 커밋 710c67cea7d6bcd802aced993e72c922aea2c253에서 존재 확인. 첨부 원본과 바이트 불일치; 픽셀 동일성 미검증. 기존 승인 PNG 변경 없음. 추가 수정 금지. 영상화 미실행.
