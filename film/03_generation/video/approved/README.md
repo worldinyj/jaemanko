@@ -6,3 +6,9 @@
 - 업로드 확인 커밋 e069d1344621431a3f4000a1b48e57265f1d808e, 13,864,015 bytes, Git blob 3f3a047f84022c108250ba9284eefbbe8855e7a5. 로컬 사용자 첨부의 git hash-object 결과와 저장소 blob 일치.
 - ffprobe 실측 1264×704, H.264, 24fps, 125프레임, 5.208333초, 음성 스트림 없음. 이전 전체 디코딩 및 0.5초 간격 표본 QC 양호. 승인 PNG와 시작 프레임의 픽셀 동일성은 미검증.
 - APPROVED_LOCKED / REPO_BLOB_MATCH. 5초 최종 편집 시 120프레임 사용 여부는 음성 수신 후 결정. 원본 수정 없음.
+
+## VIDEO_S02A_V01
+- 사용자 업로드 및 다음 작업 요청에 따라 원본 제작 자산 조건부 채택·잠금. [MP4](VIDEO_S02A_V01.mp4)
+- 커밋 12ebc6966bb313af70344ee7aecda659cd8207b0, 3,364,807 bytes, Git blob ae33642285271c41ccd2a22c1f9e7db88d0027bb. 이번 로컬 첨부 git hash-object와 일치.
+- ffprobe 재확인: H.264, 1280×720, 24fps, 125 frames, 5.208333s, 음성 스트림 없음. 이전 전체 디코딩 정상 및 표본 QC: 인물·화풍 양호, 초반 책장 움직임과 후반 발화처럼 보이는 입 움직임.
+- APPROVED_CONDITIONAL_LOCKED / REPO_BLOB_MATCH. 최종 편집에서 약 1.5–2.5초 독서 안정 구간을 우선 검토하고 정지 이미지 팬/줌 등으로 5초 구성. 정확한 인/아웃은 편집 검수 후 확정. 원본 수정 및 재생성 없음. 시작 PNG 픽셀 동일성 미검증.

@@ -16,4 +16,7 @@ A single continuous five-second cinematic shot. The young Korean man sits quietl
 - 손가락 수/접촉 위치, 성경책 형태, 머리/입/꽃 장식, 배경 구조의 시간적 안정성 확인. 책장 넘김·발화·급격한 움직임 금지.
 - 미세 동작이 부자연스러우면 사용자 승인하에 한 차례 수정 또는 정지 이미지 팬/줌 대체. 자동 재시도 없음.
 - 수신 후 MP4 디코딩/실측 길이/해상도/FPS/표본 프레임 검수. 승인 후 approved/VIDEO_S02A_V01.mp4로 등록.
-- 현재 미생성. S03A 이후 순차 대기.
+- 생성 및 원본 업로드 완료. S03A 다음 작업.
+
+## 승인 기록
+2026-11-27: APPROVED_CONDITIONAL_LOCKED / REPO_BLOB_MATCH. 사용자 다음 단계 진행 요청. 3,364,807 bytes, Git blob ae33642285271c41ccd2a22c1f9e7db88d0027bb, 1280×720, 24fps, 125 frames, 5.208333s, H.264, 무음. 이전 표본 QC의 책장 움직임·후반 입 움직임은 최종 편집 보완 대상으로 유지. 추가 생성 없음.
