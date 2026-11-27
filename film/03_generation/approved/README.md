@@ -41,3 +41,9 @@
 - 2026-11-27 사용자 첨부 및 최종 채택. 1930년대 성경교육의 상징적 재현. CHAR-02와 현대적 3D 화풍 유지. 실제 결과는 정면에 가까운 구도, 열린 성경과 책상, 손을 책 곁에 둔 자세. 꽃 장식은 남아 있으며 역사적 복장 근거는 아님. 시선은 책보다 정면에 가까우므로 영상화 시 무리한 눈/손 동작 없이 차분한 독서 분위기 또는 팬/줌 활용.
 - 첨부 PNG 1456×816, 2,092,020 bytes, SHA-256 e464a40edd73705c6ba4ff9286888105112b5db3e6d155f3f37a957f8a608afc, 예상 Git blob SHA 1df512a55fd2794a2295821bc923a0cbb636ffa0.
 - APPROVED_LOCKED / REPO_PRESENT_BYTE_MISMATCH. [S02A_V01.png](S02A_V01.png), 저장소 1,826,996 bytes, Git blob SHA 90615d8b488c373465f5d1216e8fd5b9bd471248. 사용자 커밋 710c67cea7d6bcd802aced993e72c922aea2c253에서 존재 확인. 첨부 원본과 바이트 불일치; 픽셀 동일성 미검증. 기존 승인 PNG 변경 없음. 추가 수정 금지. 영상화 미실행.
+
+## S04A_V01
+- 사용자 선택 및 업로드 확인(2026-11-27). 해방을 상징하는 열린 농촌길과 햇살, 실제 출소 장소·경로의 재현 아님. [S04A_V01.png](S04A_V01.png), 1,647,540 bytes, Git blob 7a8118d400dff60a93457c669abe890169f6c4e9. 커밋 7fb4d823609da0c95e853b0da963d0bbd7bec27a에서 존재 확인. 첨부와 픽셀 동일성 미검증. APPROVED_LOCKED / REPO_PRESENT.
+
+## S04B_V01
+- 사용자 업로드 및 다음 단계 진행 요청에 따라 승인. 권장 좌상단 후보의 전신 뒷모습 구도, 가방은 추정 연출 소품. 실제 선택 후보와 저장소 이미지 픽셀 동일성 미검증. [S04B_V01.png](S04B_V01.png), 1,498,825 bytes, Git blob e94a487a3c4f37152f6e48fa47149ed1fac34f6f. 커밋 7fb4d823609da0c95e853b0da963d0bbd7bec27a에서 존재 확인. APPROVED_LOCKED / REPO_PRESENT. 두 이미지 모두 추가 수정 금지, 영상화 미실행.
